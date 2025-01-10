@@ -1,1 +1,38 @@
 node_modules/
+# Laravel environment file
+.env
+
+# Laravel 7.x và mới hơn sử dụng file dịch vụ tạm thời
+.env.*
+
+# Thư mục lưu trữ cache và session
+/storage/*
+!/storage/app
+!/storage/public
+
+# Thư mục chứa log
+/storage/logs
+
+# Thư mục tạm thời cho các file biên dịch
+/vendor/
+
+# Tạo lại các file khi build lại
+/node_modules/
+
+# Thư mục tạm thời của IDE hoặc editor
+.idea/
+.vscode/
+
+# Tạo các file tạm thời của hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Các file hoặc thư mục của PHPUnit hoặc các công cụ test khác
+phpunit.xml
+phpunit.xml.dist
+
+# Thư mục chứa file báo cáo coverage hoặc các file tương tự từ các công cụ test
+/coverage/
+
+# Các file tạm của Composer
+composer.phar
